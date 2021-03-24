@@ -1,0 +1,29 @@
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  background-color:  darkorchid;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 28px;
+  text-align: left;
+  color: black;
+  background-color: aqua;
+
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: left;
+  background-color:white;
+}
+p {
+  
+}
