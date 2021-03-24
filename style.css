@@ -27,3 +27,11 @@ h3{
 p {
   
 }
+
+a[href^="tel:"]{
+    color:fuchsia;
+  }
+
+a[href^="mailto:"]{
+    color:dodgerblue;
+  }
