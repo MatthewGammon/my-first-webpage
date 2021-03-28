@@ -1,5 +1,5 @@
 header {
-  background-color: cornflowerblue;
+  background-color:darkorchid;
   padding: 15px;
   margin: 10px;
   border: 3px solid goldenrod;
@@ -17,11 +17,11 @@ main {
 }
 
 body {
-  background-color: darkorchid;
+  background-color:cornflowerblue;
 }
 
 article {
-  background-color:darkorchid;
+  background-color:cornflowerblue;
 }
 
 section {
@@ -44,13 +44,13 @@ h2 {
   font-size: 30px;
   text-align: left;
   color: black;
+  background-color: darkorchid;
 }
 
 h3{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
+  font-size: 26px;
   text-align: left;
-  background-color: cornflowerblue;
 }
 p {
   }
@@ -60,7 +60,7 @@ ol {
 
 
 footer {
-  background-color:cornflowerblue;
+  background-color:darkorchid;
   border: 3px solid goldenrod;
 }
 a[href^="tel:"]{
