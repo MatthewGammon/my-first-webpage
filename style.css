@@ -1,22 +1,36 @@
 header {
-  background-color: darkorchid;
+  background-color: cornflowerblue;
   padding: 15px;
   margin: 10px;
-  border: 3px solid royalblue;
+  border: 3px solid goldenrod;
   text-align: center;
 }
 
 nav {
-  background-color: 06bcc1;
+  background-color:cornflowerblue;
   text-align: center;
   font-size: 32px;
 }
 
 main {
-  background-color:  cornflowerblue
+  background-color:cornflowerblue;
 }
 
+body {
+  background-color: darkorchid;
+}
 
+article {
+  background-color:darkorchid;
+}
+
+section {
+  background-color: goldenrod;
+}
+
+div {
+  margin: 30px;
+}
 h1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 80px;
@@ -27,7 +41,7 @@ h1 {
 
 h2 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 28px;
+  font-size: 30px;
   text-align: left;
   color: black;
 }
@@ -36,14 +50,18 @@ h3{
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
   text-align: left;
+  background-color: cornflowerblue;
 }
 p {
-  
+  }
+
+ol {
 }
 
 
 footer {
-  background-color: black;
+  background-color:cornflowerblue;
+  border: 3px solid goldenrod;
 }
 a[href^="tel:"]{
     color:aliceblue;
@@ -58,4 +76,5 @@ a[href^="mailto:"]{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  text-align: center;
   }
