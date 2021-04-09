@@ -67,8 +67,10 @@ ul {
 }
 
 footer {
+  padding-top: 20px;
   background-color:goldenrod;
   text-align: center;
+  overflow: scroll;
 }
 
 footer a:link {
