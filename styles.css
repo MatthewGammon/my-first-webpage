@@ -22,8 +22,10 @@ main {
 }
 
 article {
+  margin-left: auto;
+  margin-right: auto;
   background-color: goldenrod;
-  text-align: center;
+  text-align: left;
 }
 
 body {
