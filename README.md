@@ -1,6 +1,7 @@
 # my-first-webpage
 ---
-
+## Update 04/09/2021
+This project is no longer a primary focus of mine. I am practicing using using VS Code and pushing changes through the command line in Linux. Therefore this project will have a lot of commits and messy documentation until I get things ironed out. 
 ## Project Information
 **This webpage will display information about one of my favorite bands, VOLA.**
 

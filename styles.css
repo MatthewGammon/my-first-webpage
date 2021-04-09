@@ -13,6 +13,10 @@ nav {
   font-size: 32px;
 }
 
+nav a:link :visited :hover :active{ 
+  color:black;
+}
+
 main {
   background-color: cornflowerblue;
 }
