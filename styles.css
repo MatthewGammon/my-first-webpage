@@ -17,7 +17,7 @@ main {
   background-color: cornflowerblue;
 }
 
-article p{
+article {
   background-color: goldenrod;
   text-align: center;
 }
@@ -52,9 +52,17 @@ h3{
   text-align: center;
 }
 
+ol {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
 
 footer {
   background-color:goldenrod;
+  text-align: center;
 }
 
 footer a:link {
@@ -62,11 +70,11 @@ footer a:link {
 }
 
 footer a:visited {
-  color: darkorchid;
+  color: deeppink;
 }
 
 footer a:hover {
-  color: deeppink;
+  color: cornflowerblue;
 }
 
 footer a:active {
@@ -74,7 +82,7 @@ footer a:active {
 }
 
 footer div {
-  text-align: center;
+  text-align:right;
 }
 
 a[href^="tel:"]{
