@@ -73,6 +73,10 @@ footer a:active {
   color: blueviolet;
 }
 
+footer div {
+  text-align: center;
+}
+
 a[href^="tel:"]{
     color:black;
 }
