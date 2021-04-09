@@ -12,12 +12,20 @@ nav {
   font-size: 32px;
 }
 
-main, article{
-  background-color:goldenrod;
+main {
+  background-color: cornflowerblue;
 }
 
-body, section{
-  background-color:cornflowerblue;
+article {
+  background-color: cornflowerblue;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+section{
+  background-color:goldenrod;
 }
 
 
