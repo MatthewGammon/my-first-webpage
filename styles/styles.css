@@ -1,0 +1,110 @@
+header {
+  background-color:darkorchid;
+  padding: 15px;
+  margin: 10px;
+  border: 3px solid goldenrod;
+  text-align: center;
+}
+
+nav {
+  background-color:goldenrod;
+  color: black;
+  text-align: center;
+  font-size: 32px;
+}
+
+nav a:link :visited :hover :active{ 
+  color:black;
+}
+
+main {
+  background-color: cornflowerblue;
+}
+
+article {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: goldenrod;
+  text-align: left;
+}
+
+body {
+  background-color: cornflowerblue;
+}
+
+div {
+  margin: 30px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  background-color: darkorchid;
+}
+
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+ol {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+footer {
+  padding-top: 20px;
+  background-color:goldenrod;
+  text-align: center;
+  overflow: scroll;
+}
+
+footer a:link {
+  color: black;
+}
+
+footer a:visited {
+  color: deeppink;
+}
+
+footer a:hover {
+  color: cornflowerblue;
+}
+
+footer a:active {
+  color: blueviolet;
+}
+
+footer div {
+  text-align:right;
+}
+
+a[href^="tel:"]{
+    color:black;
+}
+
+a[href^="mailto:"]{
+    color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+}
