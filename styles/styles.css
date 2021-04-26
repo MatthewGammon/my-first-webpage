@@ -17,6 +17,7 @@ nav a:link :visited :hover :active{
   color:black;
 }
 
+<<<<<<< Updated upstream
 main {
   background-color: cornflowerblue;
 }
@@ -30,7 +31,13 @@ article {
 
 body {
   background-color: cornflowerblue;
+=======
+main, body {
+  background-color: cornflowerblue;
+  text-align: center;
+>>>>>>> Stashed changes
 }
+
 
 div {
   margin: 30px;
@@ -58,12 +65,9 @@ h3{
   text-align: center;
 }
 
-ol {
+ol, ul {
   text-align: center;
-}
-
-ul {
-  text-align: center;
+  list-style-position: inside;
 }
 
 footer {
