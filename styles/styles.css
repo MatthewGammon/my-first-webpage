@@ -1,30 +1,54 @@
 header {
-  background-color:darkorchid;
-  padding: 15px;
-  margin: 10px;
+  padding-top: 20px;
   border: 3px solid goldenrod;
   text-align: center;
 }
 
-nav {
-  background-color:goldenrod;
-  color: black;
-  text-align: center;
-  font-size: 32px;
+.player {
+  position: fixed;
+  top: 0px;
+  right: 11px;
+  opacity: 50%;
 }
 
-nav a:link :visited :hover :active{ 
-  color:black;
+nav {
+  border: solid 2px black;
+  margin-top: 15px;
+  background-color:goldenrod;
+  color: black;
+  font-size: 32px;
+  text-align: center;
+}
+nav a:link {
+  color: black;
+}
+nav a:visited {
+  color: black;
+}
+
+nav a:hover {
+  color: blueviolet;
+}
+
+nav a:active {
+  color: magenta;
 }
 
 main, body {
-  background-color: cornflowerblue;
-  text-align: center;
+  background: linear-gradient(45deg, rgb(61, 122, 235), rgb(233, 40, 240));
 }
 
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
-div {
-  margin: 30px;
+section p, section ul, section ol {
+  font-size: 18px;
+}
+
+h3, h4, ol, ul{
+  text-align: left;
 }
 
 h1 {
@@ -36,26 +60,32 @@ h1 {
 }
 
 h2 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 30px;
+  padding: 10px;
+  border:3px solid goldenrod;
   text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
   color: black;
-  background-color: darkorchid;
+  background-color: cornflowerblue;
 }
 
 h3{
+  padding: 10px;
+  border: 3px solid cornflowerblue;
+  background-color: goldenrod;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 26px;
-  text-align: center;
+  font-size: 28px;
 }
 
-ol, ul {
-  text-align: center;
-  list-style-position: inside;
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
-
 footer {
-  padding-top: 20px;
+  
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   background-color:goldenrod;
   text-align: center;
 }
@@ -76,10 +106,6 @@ footer a:active {
   color: blueviolet;
 }
 
-footer div {
-  text-align:right;
-}
-
 a[href^="tel:"]{
     color:black;
 }
@@ -88,10 +114,22 @@ a[href^="mailto:"]{
     color: black;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  text-align: center;
+.img {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border: 4px solid goldenrod;
+  border-radius: 10%;
+  max-width: 100%;
+  height: auto;
 }
+
+.img-center {
+  border-radius: 3%;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
