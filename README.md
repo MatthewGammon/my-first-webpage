@@ -1,17 +1,18 @@
-# my-first-webpage
----
-## Update 04/09/2021
-This project is no longer a primary focus of mine. I am practicing using using VS Code and pushing changes through the command line in Linux. Therefore this project will have a lot of commits and messy documentation until I get things ironed out. 
-## Project Information
+# About my-first-webpage
+This project began as attempt to make a simple fan page for one of my favorite bands, VOLA. I was brand new to HTML and CSS and wanted to work on a personal project to practice what I was learning. 
+
+## Project Goals
 **This webpage will display information about one of my favorite bands, VOLA.**
+The goal of the page is simply to display text and images, have some minor navigational capabilities, and allow a user to access the band's social platforms through functioning links.
 
-This started as a simple practice for creating my index.html page and linking a styles.css file. 
-I then decided to continuously add on as I progressed through the Thinkful prep course and let this be my first ever project. 
-The current objective of this project is to create my first web page from scratch. It should incorporate everything learned in the HTML and CSS modules of the course.
+## Technology and Tools
+* HTML
+* CSS
 
----
+## Page Preview
+![Page Preview](preview-images/vola-page-main.png)
+![Albums Preview](preview-images/vola-page-albums.png)
+![Footer Preview](preview-images/vola-page-members-footer.png)
 
 ## About Me
-I am currently a student of the Thinkful Engineering Immersion program to begin on May 03, 2021. 
-
-**github profile** (https://github.com/MatthewGammon)
+I am currently a student of the Thinkful Engineering Immersion program.
